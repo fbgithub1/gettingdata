@@ -18,6 +18,7 @@ Some important general notes:
 * The source data files are not included in this repo. Links to the files are provided above.
 * The data have been normalized and bounded within [-1,1]. Hence, there are no units.
 
+And now a brief explanation of each data file:
 1.  activity_labels.txt: explains how the activities are coded. Activity is a factor variable with six levels, enumerated as indicated in the file. 
 2.  features_info.txt: provides some details as to what each variable is measuring. 
 3.  features.txt: this is a list of the 561 variables measured.
