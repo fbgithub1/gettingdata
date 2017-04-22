@@ -51,6 +51,20 @@ This repo includes the following files:
 2. README.md: satisfies requirement #3 from the task list above.
 3. codebook.md: satisfies requirement #4 from the task list above.
 
+## Brief explanation of run_analysis.R
+
+run_analysis.R does the following:
+
+1. Reads the variable names from the source data.
+2. Substitutes text labels for the "activity" variable, as opposed to coding the activity numerically (as in the original data).
+3. Reads the "subject" data for the "test" data set.
+4. Reads the "test" data set and discards all variables that do not contain the string "mean()" or "std()".
+5. Appends the "activity" & "subject" variables to the "test" data set (excluding the discarded variables).
+6. Repeats steps 2 - 6 for the "train" data set.
+7. Merges the "test" & "train" data into one data frame.
+8. Exports the required output data frame (average of each variable by activity & subject).
+ 
+
 ## Reading in the output table
 
 The following R code could be used to read the input table (be sure to provide the full output path to output.txt):
