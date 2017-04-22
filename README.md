@@ -36,7 +36,6 @@ Note that these files are not included in this repo. Links to the files are prov
   3. Uses descriptive activity names to name the activities in the data set
   4. Appropriately labels the data set with descriptive variable names.
   5. From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
 2. Upload the second data set (average of each variable by activity & subject) via the Coursera assignment website.
 3. Include this README in this GitHub repo.
 4. Write a codebook for the 2nd data set and include it in this repo. 
