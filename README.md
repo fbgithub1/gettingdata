@@ -5,7 +5,7 @@ FB 4/21/17.
 ## Synopsis
 This repo contains the files necessary to complete the week 4 assignemnt of the Coursera course called "getting and cleaning data". The purpose of the assignment is to demonstrate the ability to process data.
 
-## Data source & description. 
+## Data source & description 
 The data used here were collected from the accelerometers from the Samsung Galaxy S smartphone. Briefly, 30 test subject were monitored as they performed six activities: walking, walking up stairs, walking down stairs, sitting, standing, & laying. The provided data result from various measurements of the subjects' motions when performing each of the six activities. The data were split into a test set (subdirectory "test") and a training set (subdir "train"). 
 
 A full description is available at the site where the data was obtained: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
@@ -53,6 +53,6 @@ This repo includes the following files:
 The following R code could be used to read the input table (be sure to provide the full output path to output.txt):
 
 ```r
-data <- read.table(output.txt, header = TRUE)
+data <- read.table(output.txt, check.names = F, header = T)
 View(data)
 ```
