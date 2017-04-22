@@ -16,7 +16,9 @@ Here is the data set for the project: [https://d396qusza40orc.cloudfront.net/get
 
 Some important general notes:
 * The source data files are not included in this repo. Links to the files are provided above.
-* The data have been normalized and bounded within [-1,1]. Hence, there are no units.
+* The data have been normalized and bounded within [-1,1].
+* Units of acceleration are “g”’s, or equivalents of the acceleration due to gravity (9.80665 m/sec^2).
+* Units of angular velocity are radians per second.
 
 And now a brief explanation of each data file:
 1.  activity_labels.txt: explains how the activities are coded. Activity is a factor variable with six levels, enumerated as indicated in the file. 
