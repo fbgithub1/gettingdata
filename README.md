@@ -31,11 +31,11 @@ Note that these files are not included in this repo. Links to the files are prov
 ## Tasks required for the assignment
 
 1. Include in this GitHub repo one R script called *run_analysis.R* that does the following.
-  * Merges the training and the test sets to create one data set.
-  * Extracts only the measurements on the mean and standard deviation for each measurement.
-  * Uses descriptive activity names to name the activities in the data set
-  * Appropriately labels the data set with descriptive variable names.
-  * From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  i. Merges the training and the test sets to create one data set.
+  i. Extracts only the measurements on the mean and standard deviation for each measurement.
+  i. Uses descriptive activity names to name the activities in the data set
+  i. Appropriately labels the data set with descriptive variable names.
+  i. From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 2. Upload the second data set (average of each variable by activity & subject) via the Coursera assignment website.
 3. Include this README in this GitHub repo.
 4. Write a codebook for the 2nd data set and include it in this repo. 
@@ -47,3 +47,12 @@ This repo includes the following files:
 1. run_analysis.R: satisfies requirement #1 from the task list above.
 2. README.md: satisfies requirement #3 from the task list above.
 3. codebook.md: satisfies requirement #4 from the task list above.
+
+## Reading in the output table
+
+The following R code could be used to read the input table (be sure to provide the full output path to output.txt):
+
+```r
+data <- read.table(output.txt, header = TRUE)
+View(data)
+```
