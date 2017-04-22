@@ -14,7 +14,9 @@ Here is the data set for the project: [https://d396qusza40orc.cloudfront.net/get
 
 ## Brief explanation of the data files
 
-Note that these files are not included in this repo. Links to the files are provided above.
+Some important general notes:
+* The source data files are not included in this repo. Links to the files are provided above.
+* The data have been normalized and bounded within [-1,1]. Hence, there are no units.
 
 1.  activity_labels.txt: explains how the activities are coded. Activity is a factor variable with six levels, enumerated as indicated in the file. 
 2.  features_info.txt: provides some details as to what each variable is measuring. 
