@@ -62,7 +62,7 @@ run_analysis.R does the following:
 3. Reads the "subject" data for the "test" data set.
 4. Reads the "test" data set and discards all variables that do not contain the string "mean()" or "std()".
 5. Appends the "activity" & "subject" variables to the "test" data set (excluding the discarded variables).
-6. Repeats steps 2 - 6 for the "train" data set.
+6. Repeats steps 2 - 5 for the "train" data set.
 7. Merges the "test" & "train" data into one data frame.
 8. Exports the required output data frame (average of each variable by activity & subject).
  
