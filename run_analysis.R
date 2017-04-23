@@ -5,8 +5,7 @@
 ## General.
 ###############################################################################
 
-# Be sure to set proper data directory!
-setwd("/Users/fbgithub1/Desktop/data/")
+# ASSUMES THAT THIS SCRIPT IS IN SAME WORKING DIRECTORY AS DOWNLOADED DATA!
 
 # Get variable names.
 features <- read.delim("features.txt", header = F, sep=" ")[2]
