@@ -51,7 +51,7 @@ This repo includes the following files:
 
 1. run_analysis.R: satisfies requirement #1 from the task list above.
 2. README.md: satisfies requirement #3 from the task list above.
-3. codebook.md: satisfies requirement #4 from the task list above.
+3. codebook.txt: satisfies requirement #4 from the task list above.
 
 ## Brief explanation of run_analysis.R
 
