@@ -72,6 +72,6 @@ run_analysis.R does the following:
 The following R code could be used to read the input table (be sure to provide the full output path to output.txt):
 
 ```r
-data <- read.table(output.txt, check.names = F, header = T)
+data <- read.table("output.txt", check.names = F, header = T)
 View(data)
 ```
